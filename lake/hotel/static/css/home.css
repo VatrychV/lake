@@ -1,0 +1,58 @@
+body{
+    background-color: slategray;
+}
+h1 {
+    padding-left: 60px;
+    text-align: left;   
+    color:black;
+}
+div a{ 
+    text-decoration:none ;
+    text-align: center;
+    border-color: 2px solid black;
+    padding: 35px;
+    color:black
+}
+div img{
+    
+    margin: 65px;    
+    width: 400px;
+    border: 2px solid black;
+}
+.description{
+    padding-top: 15px;
+    text-align: center;
+}
+.pictures{
+    text-align: center;
+}
+
+.bottom{
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.tel{
+    padding: 0%;
+}
+.links_container{
+    padding-top: 20px;
+}
+hr{
+    margin: 1%;
+}
+.container {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.image {
+    width: 400px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+}
+
+.image:hover {
+    transform: scale(1.25); 
+}
