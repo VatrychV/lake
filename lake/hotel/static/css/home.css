@@ -45,6 +45,7 @@ hr{
     padding-bottom: 20px;
     display: flex; 
     justify-content: center; 
+
 }
 
 .image {
@@ -55,4 +56,40 @@ hr{
 
 .image:hover {
     transform: scale(1.25); 
+    
+}
+
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
 }

@@ -1,7 +1,7 @@
-let slideIndex = -7.4;
+let slideIndex = 0;
 const slides = document.querySelectorAll('.container .image');
 const totalSlides = slides.length;
-const slidesToShow = 7.5; // Кількість слайдів для показу
+const slidesToShow = 0; // Кількість слайдів для показу
 const slideWidth = slides[0].clientWidth;
 
 function showSlides() {
@@ -19,8 +19,8 @@ function nextSlide() {
 
 function prevSlide() {
     slideIndex--;
-    if (slideIndex < -7.4) {
-        slideIndex = -7.4;
+    if (slideIndex < 0) {
+        slideIndex = 0;
     }
     showSlides();
 }
